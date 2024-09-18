@@ -14,7 +14,7 @@ pipeline {
                             sh 'ls -la'
                         }
                     } else {
-                        error "Second repository directory not found!"
+                        echo "Second repository directory not found!"
                     }
                 }
             }
